@@ -1,0 +1,13 @@
+.tabListItem {
+  font-family: sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 6px 13px;
+  cursor: pointer;
+}
+
+.tabListActive {
+  border-bottom: 5px solid #12c2e9;
+}

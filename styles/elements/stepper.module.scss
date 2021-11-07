@@ -1,0 +1,33 @@
+.stepper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1200px;
+  margin: 3rem auto 0 auto;
+}
+
+.stepWithLabelAndConnection {
+  flex: 1;
+}
+
+.stepWithConnection {
+  display: flex;
+  flex-direction: row;
+}
+
+.stepContainerConnection {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stepConnection {
+  flex: 1;
+  height: 1px;
+  background-color: gray;
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+}
